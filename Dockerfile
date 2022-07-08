@@ -12,8 +12,6 @@ RUN aspnetcore_version=3.1.26 \
     && tar -oxzf aspnetcore.tar.gz -C /usr/share/dotnet ./shared/Microsoft.AspNetCore.App \
     && rm aspnetcore.tar.gz
 
-
-
 WORKDIR bin\Debug\netcoreapp3.1
 
 RUN mkdir /app
